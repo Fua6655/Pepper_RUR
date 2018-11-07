@@ -1,0 +1,4 @@
+# You need to have from ros-naoqi
+naoqi_bridge_msgs 
+pepper_dcm_robot 
+naoqi_driver 
