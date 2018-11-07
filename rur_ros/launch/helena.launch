@@ -29,16 +29,16 @@
     <param name="max_stiffness"       value="0.9" />
   </node>
 
-    <node pkg="pepper_interaction" type="asr_tts_server_2.py" name="asr_tts_helena" respawn="false" output="screen" />
+    <node pkg="rur_ros" type="asr_tts_server_2.py" name="asr_tts_helena" respawn="false" output="screen" />
 
-    <node pkg="pepper_interaction" type="basic_awareness_server_2.py" name="basic_awareness_helena" respawn="false" output="screen"/>
+    <node pkg="rur_ros" type="basic_awareness_server_2.py" name="basic_awareness_helena" respawn="false" output="screen"/>
    
-    <node pkg="pepper_interaction" type="behaviours_server_2.py" name="behaviours_helena" respawn="false" output="screen" />
+    <node pkg="rur_ros" type="behaviours_server_2.py" name="behaviours_helena" respawn="false" output="screen" />
     
-    <node pkg="pepper_interaction" type="pose_server_2.py" name="pose_helena" respawn="false" output="screen" />
+    <node pkg="rur_ros" type="pose_server_2.py" name="pose_helena" respawn="false" output="screen" />
 
-    <node pkg="pepper_interaction" type="audio_server_2.py" name="audio_helena" respawn="false" output="screen" />
+    <node pkg="rur_ros" type="audio_server_2.py" name="audio_helena" respawn="false" output="screen" />
 
-    <node pkg="pepper_interaction" type="sound_localization_server_2.py" name="sound_localization_helena" respawn="false" output="screen" />
+    <node pkg="rur_ros" type="sound_localization_server_2.py" name="sound_localization_helena" respawn="false" output="screen" />
 
 </launch>
